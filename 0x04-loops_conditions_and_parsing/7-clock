@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# A nested while loop
+
+
+Hour=0
+min=1
+while [ $Hour -le 12 ]
+	do
+		while [ $min -le 59 ]
+		do
+			echo "Hour: $Hour"
+			echo $min
+			((min++))
+		done
+		((Hour++))
+		min=1
+	done
