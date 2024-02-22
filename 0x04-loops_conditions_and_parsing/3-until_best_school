@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#An untill loop
+
+counter=10
+
+until [ $counter -lt 1 ];
+do
+echo "Best School"
+((counter--))
+done

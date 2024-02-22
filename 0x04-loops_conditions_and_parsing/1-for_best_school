@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# A script that prints using the for loop
+
+count=9
+
+for ((i=0; i<=count; i++))
+do
+echo "Best School"
+done

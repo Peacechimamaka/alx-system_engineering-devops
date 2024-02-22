@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# A while loop containig an if statement
+
+count=1
+
+while [ $count -lt 11 ]
+do
+echo "Best School"
+if [ $count -eq 9 ]
+then
+echo "Hi"
+fi
+((count++))
+done
