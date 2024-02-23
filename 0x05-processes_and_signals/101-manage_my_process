@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #A script
 pid_file="/var/run/my_process.pid"
-log_file="/tmp/my_process"
+#log_file="/tmp/my_process"
 
 start() {
     if [ -f "$pid_file" ]; then
