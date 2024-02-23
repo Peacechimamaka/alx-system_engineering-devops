@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+pid_file="/var/run/my_process.pid"
+log_file="/tmp/my_process"
+
+while true; do
+    echo "I am alive!" > "$log_file"
+    sleep 2
+done
+
