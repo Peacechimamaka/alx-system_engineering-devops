@@ -9,6 +9,6 @@ do
 	then
 	newfile="${file#*-}"
 	mv "$file" "$newfile"
-echo $newfile
+echo "$newfile"
 fi
 done
