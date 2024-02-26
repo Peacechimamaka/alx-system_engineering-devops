@@ -3,15 +3,14 @@
 
 
 Hour=0
-min=1
 while [ $Hour -le 12 ]
 	do
+		echo "Hour: $Hour"
+		min=1
 		while [ $min -le 59 ]
 		do
-			echo "Hour: $Hour"
 			echo $min
 			((min++))
 		done
 		((Hour++))
-		min=1
 	done
