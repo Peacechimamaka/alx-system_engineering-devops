@@ -5,10 +5,9 @@
 
 for file in *;
 do
-	if [[ $file == *-* ]]
+	if [[ $file != .* ]]
 	then
 	newfile="${file#*-}"
-	mv "$file" "$newfile"
-echo -e "$newfile\n"
+echo "$newfile"
 fi
 done
