@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# script to login to ssh server
+ssh ubuntu@100.25.47.196 -i ~/.ssh/id_rsa
