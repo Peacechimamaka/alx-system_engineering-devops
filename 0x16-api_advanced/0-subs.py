@@ -9,10 +9,9 @@ def number_of_subscribers(subreddit):
     """Returns the total number of subscribers
     for a subreddit given.
     """
-    
-    uri_a = '{base}/r/{subreddit}/about.json'.format(base=base_url,
-                                                       subreddit=subreddit)
     url_b = 'https://www.reddit.com'
+    uri_a = '{base}/r/{subreddit}/about.json'.format(base=url_b,
+                                                       subreddit=subreddit)
 
     # Set an User-Agent
     agent = {'User-Agent': 'Python/requests'}
